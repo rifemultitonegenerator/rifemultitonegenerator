@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rife Multi-tone Generator</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Rife Multi-tone Frequency Generator</h1>
+  <details style="max-width:800px;margin-top:10px;font-size:.95em;color:var(--text-color)">
+    <summary><strong>⚠️ Disclaimer – Read Before Using</strong></summary>
+    <p style="margin-top:10px">
+      This site is experimental and is not intended to diagnose, treat, cure, or prevent any disease or symptom. Use at your own risk.
+      <br><br>
+      Exposure to loud sounds or extreme frequencies can damage your hearing or your speakers. Humans generally can't hear sounds below 20 Hz or above 10,000 Hz. If you increase your volume to hear these ranges, you may expose yourself to dangerously loud levels — especially in the high range where your hearing is most fragile.
+      <br><br>
+      <strong>Safety Tip:</strong> Set your device to a comfortable volume using a 1,000 Hz tone. Avoid turning it up much beyond that, even if you can't hear other tones well.
+    </p>
+  </details>
+
+  <div class="button-group">
+    <button id="startBtn">Start Mix</button>
+    <button id="stopBtn">Stop All</button>
+    <button id="resetBtn">Reset All</button>
+    <a href="https://ko-fi.com/rifemultitonefrequencygenerator" target="_blank" class="kofi-btn" title="Support on Ko‑fi">Donate</a>
+  </div>
+
+  <div id="toneContainer" class="controls-wrapper"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
